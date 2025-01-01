@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Swiggy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FF5722;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #FF5722;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        .navbar .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #FF8A65;
+        }
+        .content {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .content img {
+            width: 200px;
+            height: auto;
+        }
+        .content h1 {
+            margin: 20px 0;
+        }
+        .content p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Swiggy</a>
+        <div class="dropdown">
+            <a href="#" class="dropbtn">About Swiggy</a>
+            <div class="dropdown-content">
+                <a href="#">Swiggy Journey</a>
+                <a href="#">Our Team</a>
+                <a href="#">Careers</a>
+                <a href="#">Blogs</a>
+            </div>
+        </div>
+        <a href="#">Our Businesses</a>
+        <a href="#">Delivering For Everyone</a>
+        <a href="#">Newsroom</a>
+        <a href="#">Sustainability</a>
+        <a href="#">Investor Relations</a>
+    </div>
+
+    <div class="content">
+        <img src="path_to_image" alt="Swiggy Delivery">
+        <h1>About Swiggy</h1>
+        <p>Swiggy is a new-age consumer-first organization offering an easy-to-use convenience platform, accessible through a unified app.</p>
+    </div>
+</body>
+</html>
